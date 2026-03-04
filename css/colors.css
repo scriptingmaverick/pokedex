@@ -1,0 +1,134 @@
+.grass,
+/* #grass, */
+#grass:hover {
+  background-color: mediumseagreen;
+}
+
+.poison,
+/* #poison, */
+#poison:hover {
+  background-color: mediumpurple;
+}
+
+.fire,
+/* #fire, */
+#fire:hover {
+  background-color: goldenrod;
+}
+
+.flying,
+/* #flying, */
+#flying:hover {
+  background-color: steelblue;
+}
+
+.water,
+/* #water, */
+#water:hover {
+  background-color: dodgerblue;
+}
+
+.bug,
+/* #bug, */
+#bug:hover {
+  background-color: brown;
+}
+
+.normal,
+/* #normal, */
+#normal:hover {
+  background-color: gray;
+}
+
+.ground,
+/* #ground, */
+#ground:hover {
+  background-color: peru;
+}
+
+.fairy,
+/* #fairy, */
+#fairy:hover {
+  background-color: hotpink;
+}
+
+.fighting,
+/* #fighting, */
+#fighting:hover {
+  background-color: crimson;
+}
+
+.electric,
+/* #electric, */
+#electric:hover {
+  background-color: hsl(51deg 73% 50%);
+}
+
+.psychic,
+/* #psychic, */
+#psychic:hover {
+  background-color: orange;
+}
+
+.rock,
+/* #rock, */
+#rock:hover {
+  background-color: dimgray;
+}
+
+.ice,
+/* #ice, */
+#ice:hover {
+  background-color: darkcyan;
+}
+
+.dragon,
+/* #dragon, */
+#dragon:hover {
+  background-color: mediumaquamarine;
+}
+
+.ghost,
+/* #ghost, */
+#ghost:hover {
+  background-color: black;
+}
+
+.dark,
+/* #dark, */
+#dark:hover {
+  background-color: slategray;
+}
+
+.steel,
+/* #steel, */
+#steel:hover {
+  background-color: steelblue;
+}
+
+.all,
+/* #all, */
+#all:hover {
+  background-color: dimgray;
+}
+
+#all:hover,
+#grass:hover,
+#poison:hover,
+#fire:hover,
+#flying:hover,
+#water:hover,
+#bug:hover,
+#ground:hover,
+#fairy:hover,
+#fighting:hover,
+#electric:hover,
+#psychic:hover,
+#ice:hover,
+#rock:hover,
+#dragon:hover,
+#ghost:hover,
+#dark:hover,
+#steel:hover {
+  color: white;
+}
