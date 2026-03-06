@@ -1,16 +1,15 @@
-import { fetchData, types } from "./utils.js";
+import { typeChangeHandler } from "./handlers.js";
 
-
-
-const renderPage = () => {
-  const body = document.querySelector("body");
-  const pokemon = fetchData("/data/poki-data.json");
-  const navBar = createNavigation(types);
-  const container = createCardContainer(pokemon);
-
-  body.append(navBar, container);
-
-  return;
+const BASEURL = "https://pokeapi.co/api/v2";
+const webOptions = {
+  currentType: "all",
+  page: 1,
+  limit: 20,
+  lastPage: null,
+  BASEURL,
 };
 
-window.onload = renderPage;
+window.onload = () => {
+  const body = document.querySelector("body");
+  typeChangeHandler(webOptions, body)({ target: { textContent: "all" } });
+};
